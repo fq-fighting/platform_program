@@ -1,0 +1,220 @@
+@import "./sidebar.scss";
+$borderColor:#D3D3D3;
+$sideBarColor:#4b4b4b;
+.ew-layout{
+    background:#e7e8ea;
+    .manage-content {
+        .manage-breadcrumb {
+            padding: 5px 0;
+        }
+        .manage-prompt{
+            background: #fff;
+            p{
+                padding:16px 0 16px 48px ;
+                color:#737373;
+            }
+        }
+
+        .managetitle{
+            padding:14px 28px 0;
+            .manage-box{
+                border-radius: 2px;
+                background:#fff;
+              box-shadow: 0px 0px 11px #ccc;
+                .managehead {
+                    justify-content: space-between;
+                    padding: 20px;
+                  box-shadow: 0px 0px 11px #ccc;
+                  button{
+                    float:right;
+                  }
+                }
+                .manage-body {
+                    padding: 20px;
+
+                    .ant-table-wrapper{
+                        border:1px solid $borderColor;
+                    }
+
+                }
+            }
+        }
+
+
+    }
+}
+
+.ant-modal{
+    width:783px !important;
+   .ant-modal-content{
+       .ant-modal-body {
+         padding: 30px 60px;
+         .company-code{
+             display: none;
+         }
+         .address-form{
+             .ant-row{
+                .ant-form-item-control{
+                    width:442px;
+                }
+                
+             }
+             .map{
+                 .has-success{
+                     width:663px;
+                 }
+             }
+         }
+         .select-ganged {
+                .ant-select {
+                    margin-right: 8px;
+                }
+            }
+            
+           .ant-row{
+             margin:0 0 10px 0;
+             
+             .ant-form-item-control {
+               width: 200px;
+                 textarea{
+                     height: auto;
+                     resize: none;
+                 }
+
+             }
+             
+             .company-phone,.company-contacts{
+                 position:relative;
+                    .company-phoneN,.contacts-phone{
+                        position: absolute;
+                        top: 0;
+                        right: -70px;
+                    }
+             }
+             
+             .company-desc,.company-logo{
+                 .ant-form-item-control{
+                   width:532px;
+                 }
+             }
+             
+             
+             .industry-box{
+                 .ant-select{
+                   width: 532px !important;
+                 }
+             }
+
+           }
+       }
+   }
+
+
+}
+
+.sidebar-con{
+    font-size:14px;
+    color:$sideBarColor;
+    .side-box{
+        height:60px;
+
+        .side-title{
+            b{
+                padding:20px 0 20px 35px;
+                display: inline-block;
+            }
+            .ant-btn-primary {
+                margin-right: 20px;
+            }
+            .side-button{
+                text-align:right;
+                height: 60px;
+                line-height: 60px;
+            }
+            .x-icon{
+                float: right;
+                height: 60px;
+                width: 50px;
+                line-height: 60px;
+                text-align: center;
+                background:#d6d6d6;
+                margin-left:6px;
+              a{
+                display:inline-block;
+                width:100%;
+                height:100%;
+                 -webkit-transition: 0.4s;
+                -webkit-transition: -webkit-transform 0.4s ease-out;
+                transition: transform 0.4s ease-out;
+                -moz-transition: -moz-transform 0.4s ease-out;
+              }
+             a:hover{
+                    transform: rotateZ(90deg);
+                    -webkit-transform: rotateZ(90deg);
+                    -moz-transform: rotateZ(90deg);
+             }
+            }
+        }
+    }
+
+    .company-margin{
+        height:8px;
+        background:#f4f4f4;
+
+    }
+    .company-logo{
+        height:100px;
+        margin:20px 0 20px 20px;
+        img{
+          width:200px;
+          height:100px;
+          background: #ccc;
+          margin-left:58px;
+        }
+    }
+    .company-list{
+        padding-left: 35px;
+        ul{
+            >li{
+                font-size:12px;
+                margin-bottom:8px;
+                div{
+                    padding-left:50px;
+                    font-weight: bold;
+                    font-size:14px;
+                    margin-bottom:8px;
+
+                }
+                ol{
+                    overflow: hidden;
+                    padding-left:50px;
+                    li{
+                        float: left;
+                    }
+                }
+                >span{
+                    width:105px;
+                    display:inline-block;
+                    text-align: right;
+                }
+                b{
+                    padding-left:10px;
+                    font-weight: normal;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+
+    .map {
+        height: 372px;
+        .ant-form-item-control-wrapper,
+        .ant-form-item-control,
+        #map {
+            height: 100%;
+        }
+    }

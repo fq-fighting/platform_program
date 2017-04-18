@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: "ewiconfont";
+  src: url('#{$icon-url}.eot'); /* IE9*/
+  src: url('#{$icon-url}.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('#{$icon-url}.woff') format('woff'), /* chrome, firefox */
+  url('#{$icon-url}.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('#{$icon-url}.svg') format('svg'); /* iOS 4.1- */
+}
+
+.#{$iconfont-css-prefix}icon{
+    font-family:"ewiconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$iconfont-css-prefix}-solid-setting:before { content: "\e601"; }
+
+.#{$iconfont-css-prefix}-attend:before { content: "\e602"; }
+
+.#{$iconfont-css-prefix}-briefcase:before { content: "\e603"; }
+
+.#{$iconfont-css-prefix}-solid-people:before { content: "\e604"; }
+
+.#{$iconfont-css-prefix}-approve:before { content: "\e605"; }
+
+.#{$iconfont-css-prefix}-hollow-people:before { content: "\e606"; }
+
+.#{$iconfont-css-prefix}-peoples:before { content: "\e607"; }
+
+.#{$iconfont-css-prefix}-key:before { content: "\e608"; }
+
+.#{$iconfont-css-prefix}-solid-help:before { content: "\e609"; }
+
+.#{$iconfont-css-prefix}-entry-apply:before { content: "\e60a"; }
+
+.#{$iconfont-css-prefix}-people-disable:before { content: "\e60b"; }
+
+.#{$iconfont-css-prefix}-structure:before { content: "\e60c"; }
+
+.#{$iconfont-css-prefix}-manage-people:before { content: "\e60d"; }

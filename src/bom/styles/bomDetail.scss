@@ -1,0 +1,72 @@
+.bomDetail-content{
+    .bom-head{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.bom-head-left{
+    display: inline-block;
+}
+.bom-head-right{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+.bom-head-right-button{
+    display: inline-block;
+    padding-top: 10px;
+}
+.bom-icon{
+    padding-left: 10px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    line-height: .9;
+    border-left: 5px solid #fd7c28;
+}
+.bom-body{
+    padding-top: 30px;
+    padding-left: 20px;
+    ul .bom-stateinfo-con-li{
+        display: inline-block;
+        width: 50%;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+.bom-baseinfo-con,.bom-stateinfo-con{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 140px;
+}
+.bom-detailedinfo-con{
+    margin-top: 20px;
+}
+.bom-baseinfo-title,.bom-stateinfo-title,.bom-detailedinfo-title{
+    font-weight: bold;
+}
+.bom-baseinfo-con-li{
+    padding-left: 10px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+// .bomDetail-efit-btn{
+//     background-color: #fd7c28;
+// }
+.bom-remarks{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 400px;
+}
+.bom-baseinfo-10{
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+.bom-head-h1{
+    font-weight: bold;
+}
+.bom-head-h1,.bom-head-h1{
+    display: block;
+}
+}

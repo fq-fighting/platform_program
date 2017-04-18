@@ -1,0 +1,169 @@
+
+.companyset-content{
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    min-height: 600px;
+    .companyset-title{
+        height: 50px;
+        border-bottom: 1px solid #dfdfdf;
+        margin-left: 31px;
+        font-size: 14px;
+        line-height: 68px;
+        color: #2E435A ;
+        padding-left: 12px;
+        position: relative;
+        .title-line{
+            height: 15px;
+            position: absolute;
+            width: 3px;
+            background: #ff7629;
+            top: 26px;
+            left: 1px;
+            display: inline-block;
+            
+        }  
+    }
+    .companyset-name{
+        position: absolute;
+        top: 86.3px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        color:#2E435A;
+        left: 43px;
+    }
+    .companyset-info{
+        position: absolute;
+        height: 20px;
+        top: 110px;
+        line-height: 20px;
+        font-size: 12px;
+        color:#2E435A;
+        left: 43px;
+    }
+    .companyset-first{
+        .companyset-abbreviation{
+            position: absolute;
+            top: 154px;
+            left: 58px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            color:#4b4b4b;
+            float: left;
+            .company-tit{
+                min-width: 36px;
+                text-align: right;
+                display: inline-block;
+            }
+            .company-text{
+                margin-left: 20px;
+            }
+        }
+        .representative{
+            left: 353px;
+        }
+        .phone{
+            left: 648px;
+        }
+    }
+    .companyset-second{
+        
+        .companyset-email{
+            position: absolute;
+            top: 188px;
+            left: 80px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            color:#4b4b4b;
+            float: left;
+            .company-tit{
+                min-width: 36px;
+                text-align: right;
+                display: inline-block;
+            }
+            .company-text{
+                margin-left: 20px;
+                
+            }
+        }
+        .address{
+            left: 353px;
+        }
+    }
+    .companyset-introduce{
+        position: absolute;
+        top: 222px;
+        left: 58px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        color:#4b4b4b;
+        .company-tit{
+                min-width: 36px;
+                text-align: right;
+                display: inline-block;
+            }
+            .company-text{
+                margin-left: 20px;
+            }
+    }
+    .companyset-third{
+        .companyset-contact{
+            position: absolute;
+            top: 313px;
+            left: 48px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            color:#4b4b4b;
+            float: left;
+            .company-tit{
+                min-width: 36px;
+                text-align: right;
+                display: inline-block;
+                
+            }
+            .company-text{
+                margin-left: 20px;
+            }
+        }
+        .tell{
+            left: 313px;
+        }
+    }
+    .companyset-logo{
+        position: absolute;
+        top: 390px;
+        left: 55px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        color:#4b4b4b;
+        .company-tit{
+                min-width: 36px;
+                text-align: right;
+                display: inline-block;
+            }
+            .company-text{
+                margin-left: 20px;
+            }
+    }
+    .companyset-setbtn{
+        position: absolute;
+        top: 497px;
+        left: 48px;
+        // height: 28px;
+        // width: 60px;
+        // text-align: center;
+        // font-size: 14px;
+        // color:#fff;
+        // background: #7196cb;
+        // border-radius: 3px;
+    }
+    
+}

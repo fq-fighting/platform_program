@@ -1,0 +1,101 @@
+.personal-content{
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    min-height: 600px;
+    .personal-info{
+        height: 50px;
+        border-bottom: 1px solid #dfdfdf;
+        margin-left: 36px;
+        font-size: 14px;
+        line-height: 68px;
+        color: #2E435A ;
+        padding-left: 12px;
+        position: relative;
+        .title-line{
+            height: 15px;
+            position: absolute;
+            width: 3px;
+            background: #ff7629;
+            top: 26px;
+            left: 1px;
+            display: inline-block;
+        }  
+    }
+    .personal-base{
+        .base-info{
+            height: 50px;
+            left: 36px;
+            top: 84px;
+            font-size: 14px;
+            color: #2E435A ;
+            padding-left: 12px;
+            position: absolute;
+            top: 84px;
+        }
+        .bace-cont{
+            float: left;
+            position: absolute;
+            top: 118px;
+            left: 48px;
+            color: #4b4b4b;
+            font-size: 14px;
+            span{
+                margin-left: 20px;
+            }
+        }
+        .base-section{
+            left: 240px;
+        }
+        .base-position{
+            left: 448px;
+        }
+        .photo{
+            top: 74px;
+            right: 50px;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            display: block;
+            border: none;
+        }
+    }
+    .personal-account{
+        .account-info{
+            height: 50px;
+            border-bottom: 1px solid #dfdfdf;
+            margin-left: 36px;
+            font-size: 14px;
+            line-height: 68px;
+            color: #2E435A ;
+            padding-left: 12px;
+            position: relative;
+            margin-top: 120px;
+            .title-line{
+                height: 15px;
+                position: absolute;
+                width: 3px;
+                background: #ff7629;
+                top: 26px;
+                left: 1px;
+                display: inline-block;
+            }  
+        }
+        .account-phone{
+            float: left;
+            position: absolute;
+            top: 249px;
+            left: 36px;
+            color: #4b4b4b;
+            font-size: 14px;
+            span,a{
+                margin-left: 20px;
+            }
+        }
+        .password{
+            left: 325px;
+        }
+    } 
+}

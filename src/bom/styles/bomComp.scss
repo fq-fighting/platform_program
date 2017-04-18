@@ -1,0 +1,48 @@
+.bom-wrap {
+  border-bottom: 2px solid #e5e8ec;
+  .bom-header {
+    display: inline-block;
+    height: 68px;
+    width: 100%;
+    line-height: 68px;
+    border-bottom: 2px solid #e5e8ec;
+    .bom-header-title {
+      margin-left: 20px;
+      font-size: 14px;
+      color: #4b4b4b;
+      font-weight: bold;
+    }
+    .default-btn {
+      color: #fff;
+      background-color: #6d8ec1;
+      border-color: #6d8ec1;
+    }
+    .save {
+      position: absolute;
+      right: 95px;
+      top: 20px;
+    }
+    .back {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+  }
+  .bom-form-content{
+    .bom-baseInfo{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      .bom-baseInfo-icon{
+        margin-left: 20px;
+        margin-bottom: 30px;
+        font-size: 10px;
+        line-height: .9;
+        border-left: 5px solid #fd7c28;
+      }
+      .bom-form-baseInfo{
+        margin-left: 10px;
+      }
+    }
+
+  }
+}

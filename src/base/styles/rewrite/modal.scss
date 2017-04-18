@@ -1,0 +1,50 @@
+$dialog-prefix-cls: "#{$ant-prefix}-modal";
+$dialog-btn-color:#5cb85c;
+.#{$dialog-prefix-cls} {
+    &-close {
+        right: 20px;
+        top: 13px;
+    }
+    &-content {
+        border-radius: $border-radius-base;
+    }
+    &-header {
+        padding: 9px 26px;
+        border-radius: $border-radius-base $border-radius-base 0 0;
+        background: #ecedf1;
+        color: #4b4b4b;
+        font-weight: bold;
+        border-bottom-color: transparent;
+    }
+    &-body {
+        padding: 30px 60px;
+    }
+    &-footer {
+        border-top-color: $border-color-split;
+        padding: 6px 12px 6px 10px;
+        border-radius: 0 0 $border-radius-base $border-radius-base;
+        .#{$ant-prefix}-btn-primary{
+            
+            @include button-color(#FFFFFF,$dialog-btn-color,$dialog-btn-color);
+            &:hover,
+            &:focus {
+                @include button-color(#FFFFFF, lighten($dialog-btn-color, 10%), lighten($dialog-btn-color, 10%));
+            }
+            &:active,
+            &.active {
+                @include button-color(#FFFFFF,darken($dialog-btn-color, 5%), darken($dialog-btn-color, 5%));
+            }
+        }
+        .#{$ant-prefix}-btn-ghost{
+            color:#292d37;
+            border-color: transparent;
+            &:hover,
+            &:focus {
+                @include button-color(lighten(#292d37, 20%), transparent, $border-color-base);
+            }
+        }
+        button + button {
+            margin-left: 12px;
+        }
+    }
+}
